@@ -1,0 +1,193 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn,article]{IEEEtran}
+\usepackage{cite}
+\usepackage{color,soul}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{gvv}       
+\usepackage[dvipsnames]{xcolor}
+\def\inputGnumericTable{}                                
+\usepackage[latin1]{inputenc}                            
+\usepackage{color}                                       
+\usepackage{array}                                       
+\usepackage{longtable}                                   
+\usepackage{calc}                                        
+\usepackage{multirow}                                    
+\usepackage{hhline}                                      
+\usepackage{ifthen}                                      
+\usepackage{lscape}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{4cm}
+\title{ASSIGNMENT-1}
+\author{EE24BTECH11043 - Murra Rajesh Kumar Reddy}
+\maketitle
+\bigskip
+\begin{enumerate}
+	\item Let $f$ be a one-one function with domain $\cbrak{x,y,z}$ and range $\cbrak{1,2,3}$. It is given that exactly one of the following statements is true and the remaining two are false ${f\brak{x}=1}$,${f\brak{y}\neq1}$,$f\brak{z}\neq2$ determine $f^{-1}\brak{1}$. \hfill$\brak{1981 - 2 Marks}$
+	\item Let $R$ be the set of real numbers and $f:R \to R$ be such that for all $x$ and $y$ in $R$ ${|f\brak{x}-f\brak{y}| \le |x-y|^3}$ .Prove that $f\brak{x}$ is a constant. \hfill$\brak{1988 - 2 Marks}$
+	\item Find the natural number $'a'$ for which ${\sum\limits_{k=1}^nf\brak{a+k}=16\brak{2^n -1}}$, where the function $'f'$ satisfies the relation ${f\brak{x+y}=f\brak{x}f\brak{y}}$ for all natural numbers $x, y$ and further ${f\brak{1}=2}$. \hfill${\brak{1992- 6 Marks}}$
+	\item Let $\cbrak{x}$ and $\sbrak{x}$ denotes the fractional and integral part of a real number $x$ respectively. Solve $4\cbrak{x}=x+\sbrak{x}$. \hfill$\brak{1994- 4 Marks}$
+	\item A function $f:IR\to IR$, where $IR$ is the set of real numbers, is defined by
+		\begin{align}
+			{f(x)=\frac{\alpha x^2 +6x -8}{\alpha +6x-8x^2}}
+		\end{align}
+		. Find the interval of values $\alpha$ for which $f$ is onto. Is the function one-to-one for $\alpha=3$? Justify your answer. \hfill${\brak{1996- 5 Marks}}$
+	\item Let ${f\brak{x}=Ax^2+Bx+C}$ where $A,B,C$ are real numbers. Prove that if $f\brak{x}$ is an integer whenever $x$ is an integer, then the numbers $2A, A+B$ and $C$ are all integers. Conversly, prove that if the numbers $2A, A+B$ and $C$ are all integers then $f\brak{x}$ is an integer whenever $x$ is an integer. \hfill${\brak{1998- 8 Marks}}$ 
+\end{enumerate}
+	\section*{F Match the Following}
+	\begin{enumerate}
+		\item Let the function defined in column I have domain $\brak{-\frac{\pi}{2},\frac{\pi}{2}}$ and range $\brak{-\infty,\infty}$ \hfill${\brak{1992-2 Marks}}$
+			\begin{multicols}{2} 
+				\section*{Column I}
+				\begin{enumerate}[label=(\Alph*)]
+					\item $1+2x$
+					\item $\tan x$
+				\end{enumerate}
+				\columnbreak
+				 \section*{Column II}
+				\begin{enumerate}[label=(\alph*),start=16]
+					\item onto but not one-one
+					\item one-one but not onto
+					\item one-one and onto
+					\item neither one-one nor onto
+				\end{enumerate}
+			\end{multicols}
+				\item Let 
+					\begin{align}
+						f(x)=\frac{x^2-6x+5}{x^2-5x+6}
+					\end{align}
+					 Match of expressions/statements in Column I with expressions/statements in Column II and indicate your answer by darkening the appropriate bubbles in the $4\times4$ matrix given in the ORS. \hfill{$\brak{2007-6 Marks}$}
+	
+			              \begin{multicols}{2}
+					      \section*{ Column I}
+						\begin{enumerate}[label=(\Alph*)]
+							\item If $-1<x<1$, then $f\brak{x}$ satisfies
+							\item If $1<x<2$, then $f\brak{x}$ satisfies
+							\item If $3<x<5$, then $f\brak{x}$ satisfies
+							\item If $x>5$, then $f\brak{x}$ satisfies
+						\end{enumerate}
+						\columnbreak
+						\section*{ Column II}
+						\begin{enumerate}[label=(\alph*) ,start=16]
+							\item $0<f\brak{x}<1$
+							\item $f\brak{x}<0$
+							\item $f\brak{x}>0$
+							\item $f\brak{x}<1$
+						\end{enumerate}
+					\end{multicols}
+         \begin{tabular}{l|l}
+\\
+\hline
+This section contains $4$ questions. Each questions has $2$ matching lists: LIST-I and LIST-II. Four options are given\\representing matching of elements from LIST-I and LIST-II. Only one of these four option corresponding to a\\correct matching.
+\\
+\hline
+\end{tabular}
+			 \item Let $E_1=\cbrak{x\in R:x\neq1}$ and $\frac{x}{x-1}>0$ and $E_2=\{x\in E_1:\sin^{-1}\brak{\log_e\brak{\frac{x}{x-1}}}$ is a real number $\}$.\\ 
+				 $($ Here, the inverse trigonometric function $\sin^{-1}x$ assumes values in $\sbrak{-\frac{\pi}{2},\frac{\pi}{2}}$ $)$.\\
+			Let $f:E_1\to R$ be the function defined by $f\brak{x}=\log_e\brak{\frac{x}{x-1}}$ and $g:E_2\to R$ be the function defined by $g\brak{x}=\sin^{-1}\brak{\log_e\brak{\frac{x}{x-1}}}$
+			\hfill${\brak{JEE Adv.2018}}$
+\begin{multicols}{2}
+	\section*{LIST-I}
+	\begin{enumerate}[label=(\Alph*), start=16]
+	\item The range of $f$ is
+	\item The range of $g$ contains
+	\item The domain of $f$ contains
+	\item The domain of $g$ is 
+\end{enumerate}
+\columnbreak
+	\section*{LIST-II}
+\begin{enumerate}
+	\item $\brak{-\infty,\frac{1}{1-e}]\cup[\frac{e}{e-1},\infty}$
+	\item $\brak{0,1}$
+	\item $\sbrak{-\frac{1}{2},\frac{1}{2}}$
+	\item $\brak{-\infty,0}\cup\brak{0,\infty}$
+	\item $(-\infty,\frac{e}{e-1}]$
+	\item $\brak{-\infty,0}\cup\brak{\frac{1}{2},\frac{e}{e-1}}$
+\end{enumerate}
+\end{multicols}
+The correct option is:
+\begin{multicols}{2}
+		\begin{enumerate}
+		\item P$\to4$; Q$\to2$; R$\to1$; S$\to1$
+		\item P$\to4$; Q$\to2$; R$\to1$; S$\to6$
+	\columnbreak
+		\item P$\to3$; Q$\to3$; R$\to6$; S$\to5$
+		\item P$\to4$; Q$\to3$; R$\to6$; S$\to5$
+	\end{enumerate}
+\end{multicols}
+\end{enumerate}
+	    \section*{I Integer Value Correct type}
+		   \begin{enumerate}
+			   \item Let $f:\sbrak{0,4\pi}\to\sbrak{0,\pi}$ be defined by $f\brak{x}=\cos^{-1}\brak{\cos x}$. The number of points $x\in\sbrak{0,4\pi}$ satisfying the equation 
+				   \begin{align}
+					   {f\brak{x}=\frac{10-x}{10}}
+				   \end{align}
+				   is \hfill${\brak{JEE Adv.2014}}$
+			   \item The  value  of  
+				   \begin{align}
+					   \brak{\brak{\log_29}^2}^{\frac{1}{\log_2\brak{\log_29}}}\times \brak{\sqrt7}^{\frac{1}{\log_47}}
+				   \end{align}
+				   is .
+				   \hfill${\brak{JEEAdv.2018}}$
+			   \item Let $X$ be a set with exactly $5$ elements and $Y$ be a set with exactly $7$ elements. If $\alpha$ is the number of one-one functions from $X$ to $Y$ and $\beta$ is the number of onto functions from $Y$ to $X$, then the value of $\frac{1}{5!}\brak{\beta-\alpha}$ is ${\brak{JEEAdv.2018}}$
+		   \end{enumerate}
+   \section*{Section-B JEE Main/ AIEEE}
+	  \begin{enumerate}
+		  \item The domain of $\sin^{-1}\sbrak{\log_3\brak{\frac{x}{3}}}$ is 
+			  \hfill$|2002|$
+			  \begin{enumerate}
+				  \item $\sbrak{1,9}$    
+				  \item $\sbrak{-1,9}$    
+				  \item $\sbrak{-9,1}$     
+				  \item $\sbrak{-9,1}$
+			  \end{enumerate}
+		  \item The function $f\brak{x}=\log\brak{x+\sqrt{x^2+1}}$, is 
+			  \hfill$|2003|$
+			  \begin{enumerate}
+		  \item neither an even nor an odd function
+		  \item an even function
+		  \item an odd function
+		  \item a periodic function.
+			  \end{enumerate}
+		  \item Domain of definition of the function 
+			  \begin{align}
+				  f(x)=\frac{3}{4-x^2}+\log_{10}\brak{x^3-x}
+			  \end{align}
+			  is 
+			  \hfill$|2003|$
+			  \begin{enumerate}
+				  \item $\brak{-1,0}\cup\brak{1,2}\cup\brak{2,\infty}$     
+				  \item $\brak{a,2}$
+				  \item $\brak{-1,0}\cup\brak{a,2}$                   
+				  \item $\brak{1,2}\cup\brak{2,\infty}$.
+			  \end{enumerate}
+	  \end{enumerate}
+\end{document}
+
