@@ -1,0 +1,2 @@
+The point that divides the line segment PQ in the ratio 1:2 is: (5.666667, -2.666667)
+The point lies in the: Fourth Quadrant
