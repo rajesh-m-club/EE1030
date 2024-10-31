@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.6)  31 OCT 2024 09:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.6)  31 OCT 2024 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1444,72 +1444,20 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-<fig/fig74q/main.pdf, id=7, 614.295pt x 794.97pt>
-File: fig/fig74q/main.pdf Graphic file (type pdf)
-<use fig/fig74q/main.pdf>
-Package pdftex.def Info: fig/fig74q/main.pdf  used on input line 98.
-(pdftex.def)             Requested size: 361.19843pt x 467.43918pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--100
-
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
-
- []
-
-<fig/fig74a/main.pdf, id=43, 614.295pt x 794.97pt>
-File: fig/fig74a/main.pdf Graphic file (type pdf)
-<use fig/fig74a/main.pdf>
-Package pdftex.def Info: fig/fig74a/main.pdf  used on input line 108.
-(pdftex.def)             Requested size: 180.59921pt x 233.71352pt.
-<fig/fig74b/main.pdf, id=44, 614.295pt x 794.97pt>
-File: fig/fig74b/main.pdf Graphic file (type pdf)
-<use fig/fig74b/main.pdf>
-Package pdftex.def Info: fig/fig74b/main.pdf  used on input line 115.
-(pdftex.def)             Requested size: 180.59921pt x 233.71352pt.
-<fig/fig74c/main.pdf, id=45, 614.295pt x 794.97pt>
-File: fig/fig74c/main.pdf Graphic file (type pdf)
-<use fig/fig74c/main.pdf>
-Package pdftex.def Info: fig/fig74c/main.pdf  used on input line 123.
-(pdftex.def)             Requested size: 180.59921pt x 233.71352pt.
-<fig/fig74d/main.pdf, id=46, 614.295pt x 794.97pt>
-File: fig/fig74d/main.pdf Graphic file (type pdf)
-<use fig/fig74d/main.pdf>
-Package pdftex.def Info: fig/fig74d/main.pdf  used on input line 131.
-(pdftex.def)             Requested size: 180.59921pt x 233.71352pt.
-[2 <./fig/fig74q/main.pdf> <./fig/fig74a/main.pdf> <./fig/fig74b/main.pdf> <./f
-ig/fig74c/main.pdf> <./fig/fig74d/main.pdf>]
-<fig/fig76/main.pdf, id=130, 614.295pt x 794.97pt>
-File: fig/fig76/main.pdf Graphic file (type pdf)
-<use fig/fig76/main.pdf>
-Package pdftex.def Info: fig/fig76/main.pdf  used on input line 149.
-(pdftex.def)             Requested size: 361.19843pt x 467.43918pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--150
-
- []
-
-
-Overfull \hbox (74.28506pt too wide) in paragraph at lines 168--170
-[]\OT1/txr/m/n/12 The ra-tio $[]$ $[]$
- []
-
-[3 <./fig/fig76/main.pdf>]
-<fig/fig80/main.pdf, id=169, 614.295pt x 794.97pt>
-File: fig/fig80/main.pdf Graphic file (type pdf)
-<use fig/fig80/main.pdf>
-Package pdftex.def Info: fig/fig80/main.pdf  used on input line 195.
-(pdftex.def)             Requested size: 361.19843pt x 467.43918pt.
- [4 <./fig/fig80/main.pdf>]
-<fig/fig82/main.pdf, id=208, 614.295pt x 794.97pt>
-File: fig/fig82/main.pdf Graphic file (type pdf)
-<use fig/fig82/main.pdf>
-Package pdftex.def Info: fig/fig82/main.pdf  used on input line 218.
-(pdftex.def)             Requested size: 361.19843pt x 467.43918pt.
- [5 <./fig/fig82/main.pdf>] [6] (./main.aux)
+<fig/fig30/fig30.pdf, id=7, 614.295pt x 794.97pt>
+File: fig/fig30/fig30.pdf Graphic file (type pdf)
+<use fig/fig30/fig30.pdf>
+Package pdftex.def Info: fig/fig30/fig30.pdf  used on input line 75.
+(pdftex.def)             Requested size: 270.89882pt x 350.57634pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/base/8r.enc} <./fig/fig30/fig30.pdf>]
+<fig/fig38/fig38.pdf, id=51, 614.295pt x 794.97pt>
+File: fig/fig38/fig38.pdf Graphic file (type pdf)
+<use fig/fig38/fig38.pdf>
+Package pdftex.def Info: fig/fig38/fig38.pdf  used on input line 119.
+(pdftex.def)             Requested size: 256.4533pt x 331.88364pt.
+ [2 <./fig/fig38/fig38.pdf>] [3]
+(./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1518,28 +1466,25 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32354 strings out of 474222
- 631569 string characters out of 5748734
+ 32252 strings out of 474222
+ 629833 string characters out of 5748734
  1940975 words of memory out of 5000000
- 53817 multiletter control sequences out of 15000+600000
- 618345 words of font info for 155 fonts, out of 8000000 for 9000
+ 53771 multiletter control sequences out of 15000+600000
+ 618641 words of font info for 155 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,9n,103p,1172b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
-s/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 133188 bytes).
+ 101i,9n,103p,1172b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 78141 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
- 102 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
