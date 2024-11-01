@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{figure}[!ht]
+    \centering
+    \resizebox{0.9\textwidth}{!}{%
+        \begin{circuitikz}
+            \tikzstyle{every node}=[font=\large]
+            % Axes
+            \draw [->, >=Stealth] (6.75,13) -- (6.75,18); % T axis
+            \draw [->, >=Stealth] (6.75,13) -- (13.25,13); % S axis
+            
+            % Process paths and arrows
+            \draw [->, >=Stealth] (8,16.75) -- (8,15); % From state 3 to state 1
+            \draw [->, >=Stealth] (8,15) .. controls (8.75,14.25) and (9,14) .. (10.75,13.75); % State 1 to 2
+            \draw [->, >=Stealth] (10.75,13.75) .. controls (9,15) and (8.75,15.5) .. (8,16.75); % State 2 to 3
+            
+            % Axis Labels
+            \node [font=\large] at (6.25,18) {T}; % Temperature label
+            \node [font=\large] at (13,12.5) {S}; % Entropy label
+            
+            % State Labels
+            \node [font=\large] at (7.75,15) {1}; % State 1
+            \node [font=\large] at (11,14) {2}; % State 2
+            \node [font=\large] at (7.75,17) {3}; % State 3
+        \end{circuitikz}
+    }%
+    
+\end{figure}
+\vspace{-250pt}
+\end{document}
+

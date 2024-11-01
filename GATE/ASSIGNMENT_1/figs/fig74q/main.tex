@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{figure}[!ht]
+    \centering
+    \resizebox{1\textwidth}{!}{%
+        \begin{circuitikz}
+            \tikzstyle{every node}=[font=\large]
+            \draw [->, >=Stealth] (6.75,13) -- (6.75,18);
+            \draw [->, >=Stealth] (6.75,13) -- (13.25,13);
+            \draw [->, >=Stealth] (7.75,14) -- (7.75,16.5);
+            \draw [->, >=Stealth] (10.25,14) -- (7.75,14);
+            \draw [->, >=Stealth] (7.75,16.5) .. controls (8.75,14.75) and (8.75,15) .. (10.25,14) ;
+            \draw [dashed] (6.75,14) -- (7.75,14);
+            \draw [dashed] (7.75,14) -- (7.75,13);
+            \draw [->, >=Stealth] (9.5,15.75) -- (9,15);
+            \draw [dashed] (10.25,14) -- (10.25,13);
+            \draw [dashed] (6.75,16.5) -- (7.75,16.5);
+            \node [font=\large] at (6.25,18) {P};
+            \node [font=\large] at (13.25,12.5) {V};
+            \node [font=\large] at (7.75,12.5) {$1 \, \text{m}^3$};
+            \node [font=\large] at (10.25,12.5) {$V_1$};
+            \node [font=\large] at (5.75,14) {$100 \, \text{kPa}$};
+            \node [font=\large] at (5.75,16.5) {$400 \, \text{kPa}$};
+            \node [font=\large] at (11,16) {$PV^{\gamma}=\text{constant}$};
+            \node [font=\large] at (10.5,14.25) {$1$};
+            \node [font=\large] at (7.25,14.25) {$2$};
+            \node [font=\large] at (7.75,17) {$3$};
+        \end{circuitikz}
+    }%
+\end{figure}
+\vspace{-50pt} % Adjust this value as needed to remove excess space
+
+\end{document}
+
