@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{figure}[!ht]
+\centering
+\resizebox{1\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+
+\draw [line width=1.5pt, short] (0,9) -- (21,9);
+\draw [line width=1.4pt, dashed] (10.5,15.75) -- (10.75,1.5);
+\draw [line width=1.2pt, short] (6.25,13.5) -- (10.5,9);
+\draw [short] (10.5,9) -- (12.5,9);
+\draw [line width=1.2pt, short] (10.5,9) -- (13.5,3);
+\draw [line width=1.2pt, ->, >=Stealth] (5,14.75) -- (6.25,13.5);
+\draw [line width=1.3pt, ->, >=Stealth] (13.5,3) -- (14.25,1.5);
+\draw [line width=1pt, short] (9.75,9.75) .. controls (10,10.25) and (10.25,10.5) .. (10.5,10.25);
+\draw [line width=1pt, short] (10.75,6.75) .. controls (11.25,6.75) and (11.25,6.75) .. (11.5,7);
+
+\node [font=\Large] at (20.75,9.75) {$\epsilon_2$};
+\node [font=\Large] at (20.5,8.5) {$\epsilon_2$};
+\node [font=\Large] at (10,10.75) {$\theta_1$};
+\node [font=\Large] at (11.25,6.25) {$\theta_2$};
+\node [font=\Large] at (4.75,14) {$E_1$};
+\node [font=\Large] at (14.75,2.5) {$E_2$};
+
+\end{circuitikz}
+}%
+
+\end{figure}
+
+\end{document}
+
