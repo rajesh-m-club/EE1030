@@ -1,0 +1,10 @@
+\frametitle{Python code}
+Python code reads the point and plots in graph
+                 	\begin{figure}[H]
+	\centering
+				\begin{minipage}{0.5\textwidth}
+	\includegraphics[width=0.7\linewidth]{figs/Py-code.png}
+			\end{minipage}
+			\end{figure}
+
+
