@@ -1,10 +1,23 @@
-\frametitle{Python code}
-Python code reads the point and plots in graph
-                 	\begin{figure}[H]
-	\centering
-				\begin{minipage}{0.5\textwidth}
-	\includegraphics[width=0.7\linewidth]{figs/Py-code.png}
-			\end{minipage}
-			\end{figure}
+\lstset{style=Pythonstyle}
+\begin{lstlisting}
+plt.text(x2, y2, f'Q({x2},{y2})', fontsize=12, verticalalignment='top', horizontalalignment='right')
+
+plt.text(x_div, y_div, f'({x_div:.2f}, {y_div:.2f})', fontsize=12, verticalalignment='top', horizontalalignment='left')
+
+# Display the quadrant
+plt.title(f"Dividing Point lies in the {quadrant}")
+
+# Set the x and y limits
+plt.xlim(min(x1, x2, x_div) - 2, max(x1, x2, x_div) + 2)
+plt.ylim(min(y1, y2, y_div) - 2, max(y1, y2, y_div) + 2)
+
+# Add grid, legend, and show the plot
+plt.grid(True)
+plt.legend()
+plt.gca().set_aspect('equal', adjustable='box')
+plt.show()
+
+
+            \end{lstlisting}
 
 

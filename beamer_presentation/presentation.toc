@@ -5,4 +5,4 @@
 \beamer@subsectionintoc {4}{1}{Plot- Using Python-code}{5}{0}{3}
 \beamer@sectionintoc {5}{Codes}{6}{0}{4}
 \beamer@subsectionintoc {5}{1}{C-code}{6}{0}{4}
-\beamer@subsectionintoc {5}{2}{Python code}{7}{0}{4}
+\beamer@subsectionintoc {5}{2}{Python code}{10}{0}{4}
