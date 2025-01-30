@@ -52,7 +52,7 @@ Thus, the theoretical solution is:
 \end{align}
 
 \textbf{Computational Solution using RK4:} \\
-The RK4 method is a numerical technique that improves accuracy over Euler’s method. The update formulas are:
+The RK4 method is a numerical technique that improves accuracy over Euler’s method. The  logic used is:
 \begin{align}
     k_1 &= h f(x_n, y_n) \\
     k_2 &= h f\left(x_n + \frac{h}{2}, y_n + \frac{k_1}{2}\right) \\
@@ -65,7 +65,7 @@ For our equation:
 \begin{align}
     f(x, y) = \frac{y}{x} - \csc{\left(\frac{y}{x}\right)}
 \end{align}
-We iterate with a small step size $h$ to compute $y$ for increasing values of $x$.
+We iterate with a small step size $h$ to compute $y$ for increasing values of $x$ and plot it using python.
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=\columnwidth]{figs/Figure_1.png}
